@@ -28,7 +28,6 @@ npm install
 npm run dev
 ```
 
-
 ### Links
 
-[Live Site](https://)
+[Live Site](https://rtk-cart-component.netlify.app/)
