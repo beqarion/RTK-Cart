@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import CartItem from "./CartItem";
-import { clearCart } from "../features/cart/cartSlice";
 import { openModal } from "../features/modal/modalSlice";
+import React from "react";
 
 function CartContainer() {
   const { cartItems, total, amount } = useSelector((state) => state.cart);
@@ -52,4 +52,4 @@ function CartContainer() {
     </section>
   );
 }
-export default CartContainer;
+export default React.memo(CartContainer);

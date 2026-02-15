@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import { CartIcon } from "../icons";
+import React from "react";
 
 function Navbar() {
   const { amount } = useSelector((state) => state.cart);
@@ -18,4 +19,4 @@ function Navbar() {
     </nav>
   );
 }
-export default Navbar;
+export default React.memo(Navbar);

@@ -1,7 +1,7 @@
 ## Redux Toolkit - Cart
 
 Small, case study project.
-Primarily, demonstrating basic use of **Redux Toolkit** in a shopping cart component.
+Primarily demonstrates the basic use of **Redux Toolkit** in a shopping cart component.
 
 ### Tech Stack
 
@@ -11,8 +11,8 @@ Primarily, demonstrating basic use of **Redux Toolkit** in a shopping cart compo
 
 ### What this project demonstrates
 
-- Using `createAsyncThunk` method, fetching and rendering data
-- Determine loading state with help of embedded `pending/fulfilled/rejected` actions of `createAsyncThunk` method.
+- Using `createAsyncThunk` method to fetch and render data
+- Determining the loading state with help of the build-in `pending/fulfilled/rejected` actions provided by `createAsyncThunk`.
 
 ### Environment
 
